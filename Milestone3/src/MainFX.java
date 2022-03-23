@@ -27,7 +27,7 @@ public class MainFX extends Application {
         Parent tableRoot;
         
         try {
-            tableRoot = FXMLLoader.load(getClass().getResource("resources/table.fxml"));
+            tableRoot = FXMLLoader.load(getClass().getResource("resources/charts.fxml"));
         } catch (IOException e) {
             System.out.println("Failed to open fxml file.");
             return;
